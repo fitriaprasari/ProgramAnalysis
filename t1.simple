@@ -1,0 +1,24 @@
+var x;
+var y;
+
+function greet(name) {
+    // This is a comment
+    var message;
+    message = "Hello, " + name + "!"; // Assuming string concatenation for example
+    // In actual SIMPLE, you might only have integer operations.
+    // If so, simplify this.
+}
+
+x = 10;
+y = 20;
+
+if (x < y) {
+    x = x + 5;
+} else {
+    y = y - 5;
+}
+
+// Function call - SIMPLE describes procedures, so no return value.
+// The syntax might be different, e.g., 'call greet("World");'
+// For this example, let's just show an identifier as a function name.
+greet("World");

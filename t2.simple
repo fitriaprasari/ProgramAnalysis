@@ -1,0 +1,17 @@
+var counter;
+counter = 0;
+
+function increment(val) {
+    var temp;
+    temp = val + 1;
+    // In a pure function (no global access), 'counter' here would be an error.
+    // So 'temp = counter + 1;' would be disallowed.
+    // The "pure" aspect means local variables and parameters only.
+}
+
+while (counter < 5) {
+    // This would be a place for an increment call,
+    // but without return values or global side-effects, it's tricky.
+    // For now, let's model a simple direct assignment.
+    counter = counter + 1;
+}
